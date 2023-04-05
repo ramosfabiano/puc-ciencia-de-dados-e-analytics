@@ -1,0 +1,13 @@
+Fonte dos dados:   http://data.insideairbnb.com/brazil/rj/rio-de-janeiro/2022-12-29/
+
+Country/City	File Name		Description
+
+Rio de Janeiro	listings.csv.gz		Detailed Listings data
+Rio de Janeiro	calendar.csv.gz		Detailed Calendar Data
+Rio de Janeiro	reviews.csv.gz		Detailed Review Data
+Rio de Janeiro	listings.csv		Summary information and metrics for listings in Rio de Janeiro (good for visualisations).
+Rio de Janeiro	reviews.csv		Summary Review data and Listing ID (to facilitate time based analytics and visualisations linked to a listing).
+Rio de Janeiro	neighbourhoods.csv	Neighbourhood list for geo filter. Sourced from city or open source GIS files.
+Rio de Janeiro	neighbourhoods.geojson	GeoJSON file of neighbourhoods of the city.
+
+

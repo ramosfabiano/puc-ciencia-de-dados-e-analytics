@@ -1,0 +1,7 @@
+http://data.insideairbnb.com/brazil/rj/rio-de-janeiro/2022-12-29/data/listings.csv.gz
+#http://data.insideairbnb.com/brazil/rj/rio-de-janeiro/2022-12-29/data/calendar.csv.gz
+#http://data.insideairbnb.com/brazil/rj/rio-de-janeiro/2022-12-29/data/reviews.csv.gz
+#http://data.insideairbnb.com/brazil/rj/rio-de-janeiro/2022-12-29/visualisations/listings.csv
+#http://data.insideairbnb.com/brazil/rj/rio-de-janeiro/2022-12-29/visualisations/reviews.csv
+#http://data.insideairbnb.com/brazil/rj/rio-de-janeiro/2022-12-29/visualisations/neighbourhoods.csv
+#http://data.insideairbnb.com/brazil/rj/rio-de-janeiro/2022-12-29/visualisations/neighbourhoods.geojson
