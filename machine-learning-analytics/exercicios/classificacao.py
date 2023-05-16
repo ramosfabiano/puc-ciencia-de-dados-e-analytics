@@ -44,7 +44,6 @@ kfold = KFold(n_splits=num_particoes, shuffle=True, random_state=7)
 # Definindo uma seed global para esta célula de código
 np.random.seed(7) 
 
-
 # Listas para armazenar os modelos, os resultados e os nomes dos modelos
 models = []
 results = []
