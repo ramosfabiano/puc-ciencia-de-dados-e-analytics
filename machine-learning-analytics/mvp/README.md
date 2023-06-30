@@ -1,4 +1,4 @@
-MVP referente ao segundo *sprint* (Machine Learning & Analytics) da especialização online **Pós-Graduação em Ciência de Dados e Analytics**, do Departamento de Informática da PUC-Rio (2023).
+MVP referente ao segundo *sprint* (Machine Learning & Analytics) da **Pós-Graduação em Ciência de Dados e Analytics**, do Departamento de Informática da PUC-Rio (2023).
 
 O MVP é composto por dois notebooks.
 
