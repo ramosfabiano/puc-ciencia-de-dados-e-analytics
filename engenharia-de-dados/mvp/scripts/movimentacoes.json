@@ -1,12 +1,12 @@
 [
   {
     "Name": "ano",
-    "Type": "bigint",
+    "Type": "string",
     "Comment": "Ano de referência"
   },
   {
     "Name": "mes",
-    "Type": "bigint",
+    "Type": "string",
     "Comment": "Mês de referência"
   },
   {
@@ -41,7 +41,7 @@
   },
   {
     "Name": "nr_voo_numero",
-    "Type": "bigint",
+    "Type": "string",
     "Comment": "Número do voo (registro de voo) atribuído ao movimento"
   },
   {
@@ -86,7 +86,7 @@
   },
   {
     "Name": "nr_cabeceira",
-    "Type": "bigint",
+    "Type": "string",
     "Comment": "Identificador da cabeceira de pista de pouso ou decolagem por onde ocorreu o movimento informado"
   },
   {
@@ -96,7 +96,7 @@
   },
   {
     "Name": "nr_ponte_conector_remoto",
-    "Type": "bigint",
+    "Type": "string",
     "Comment": "Tipo de instrumento utilizado para o embarque ou desembarque de passageiros (ponte de embarque e desembarque; conector de embarque e desembarque; embarque e desembarque remoto)"
   },
   {
@@ -106,27 +106,27 @@
   },
   {
     "Name": "qt_pax_local",
-    "Type": "bigint",
+    "Type": "string",
     "Comment": "Quantidade de passageiros embarcados como origem (decolagem) ou desembarcados como destino (pouso)"
   },
   {
     "Name": "qt_pax_conexao_domestico",
-    "Type": "bigint",
+    "Type": "string",
     "Comment": "Quantidade de passageiros embarcados provenientes de conexão doméstica (decolagem) ou desembarcados para conexão doméstica (pouso)"
   },
   {
     "Name": "qt_pax_conexao_internacional",
-    "Type": "bigint",
+    "Type": "string",
     "Comment": "Quantidade de passageiros embarcados provenientes de conexão internacional (decolagem) ou desembarcados para conexão internacional (pouso)"
   },
   {
     "Name": "qt_correio",
-    "Type": "bigint",
+    "Type": "string",
     "Comment": "Quantidade embarcada (decolagem) ou desembarcada (pouso) de correspondências e outros objetos confiados pelas administrações postais à empresa aérea, expresso em quilogramas"
   },
   {
     "Name": "qt_carga",
-    "Type": "bigint",
+    "Type": "string",
     "Comment": "Quantidade embarcada (decolagem) ou desembarcada (pouso) de todos bens transportados na aeronave, expressa em quilogramas, excluindo correio, provisões de bordo, bagagens de mão e bagagens despachadas"
   }
 ]
