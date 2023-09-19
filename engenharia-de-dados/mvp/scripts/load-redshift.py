@@ -24,18 +24,18 @@ DataCatalogtable_node1 = glueContext.create_dynamic_frame.from_catalog(
 ChangeSchema_node2 = ApplyMapping.apply(
     frame=DataCatalogtable_node1,
     mappings=[
-        ("passenger id", "string", "passenger id", "string"),
+        ("passenger_id", "string", "passenger_id", "string"),
         ("gender", "string", "gender", "string"),
         ("age", "int", "age", "int"),
         ("nationality", "string", "nationality", "string"),
-        ("airport name", "string", "airport name", "string"),
-        ("airport country code", "string", "airport country code", "string"),
-        ("country name", "string", "country name", "string"),
-        ("airport continent", "string", "airport continent", "string"),
+        ("airport_name", "string", "airport_name", "string"),
+        ("airport_country_code", "string", "airport_country_code", "string"),
+        ("country_name", "string", "country_name", "string"),
+        ("airport_continent", "string", "airport_continent", "string"),
         ("continents", "string", "continents", "string"),
-        ("departure date", "string", "departure date", "string"),
-        ("arrival airport", "string", "arrival airport", "string"),
-        ("flight status", "string", "flight status", "string"),
+        ("departure_date", "string", "departure_date", "string"),
+        ("arrival_airport", "string", "arrival_airport", "string"),
+        ("flight_status", "string", "flight_status", "string"),
     ],
     transformation_ctx="ChangeSchema_node2",
 )
@@ -47,9 +47,9 @@ AmazonRedshift_node3 = glueContext.write_dynamic_frame.from_options(
     connection_options={
         "redshiftTmpDir": "s3://aws-glue-assets-746033461814-us-east-1/temporary/",
         "useConnectionProperties": "true",
-        "dbtable": "public.airline-tbl",
+        "dbtable": "public.airline",
         "connectionName": "redshift-connection",
-        "preactions": "DROP TABLE IF EXISTS public.airline-tbl; CREATE TABLE IF NOT EXISTS public.airline-tbl (passenger id VARCHAR, gender VARCHAR, age INTEGER, nationality VARCHAR, airport name VARCHAR, airport country code VARCHAR, country name VARCHAR, airport continent VARCHAR, continents VARCHAR, departure date VARCHAR, arrival airport VARCHAR, flight status VARCHAR);",
+        "preactions": "DROP TABLE IF EXISTS public.airline; CREATE TABLE IF NOT EXISTS public.airline (passenger_id VARCHAR, gender VARCHAR, age INTEGER, nationality VARCHAR, airport_name VARCHAR, airport_country_code VARCHAR, country_name VARCHAR, airport_continent VARCHAR, continents VARCHAR, departure_date VARCHAR, arrival_airport VARCHAR, flight_status VARCHAR);",
     },
     transformation_ctx="AmazonRedshift_node3",
 )
