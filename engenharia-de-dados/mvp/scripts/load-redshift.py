@@ -49,7 +49,7 @@ AmazonRedshift_node3 = glueContext.write_dynamic_frame.from_options(
         "useConnectionProperties": "true",
         "dbtable": "public.airline-tbl",
         "connectionName": "redshift-connection",
-        "preactions": "CREATE TABLE IF NOT EXISTS public.airline-tbl (passenger id VARCHAR, gender VARCHAR, age INTEGER, nationality VARCHAR, airport name VARCHAR, airport country code VARCHAR, country name VARCHAR, airport continent VARCHAR, continents VARCHAR, departure date VARCHAR, arrival airport VARCHAR, flight status VARCHAR); TRUNCATE TABLE public.airline-tbl;",
+        "preactions": "DROP TABLE IF EXISTS public.airline-tbl; CREATE TABLE IF NOT EXISTS public.airline-tbl (passenger id VARCHAR, gender VARCHAR, age INTEGER, nationality VARCHAR, airport name VARCHAR, airport country code VARCHAR, country name VARCHAR, airport continent VARCHAR, continents VARCHAR, departure date VARCHAR, arrival airport VARCHAR, flight status VARCHAR);",
     },
     transformation_ctx="AmazonRedshift_node3",
 )
