@@ -1,16 +1,16 @@
 [
   {
-    "Name": "passenger id",
+    "Name": "passenger_id",
     "Type": "string",
     "Comment": "Identificação única do passageiro."
   },
   {
-    "Name": "first name",
+    "Name": "first_name",
     "Type": "string",
     "Comment": "Primeiro nome do passageiro."
   },
   {
-    "Name": "last name",
+    "Name": "last_name",
     "Type": "string",
     "Comment": "Último nome do passageiro."
   },
@@ -30,22 +30,22 @@
     "Comment": "Nacionalidade do passageiro."
   },
   {
-    "Name": "airport name",
+    "Name": "airport_name",
     "Type": "string",
     "Comment": "Nome do aeroporto de partida."
   },
   {
-    "Name": "airport country code",
+    "Name": "airport_country_code",
     "Type": "string",
     "Comment": "Código do país do aeroporto."
   },
   {
-    "Name": "country name",
+    "Name": "country_name",
     "Type": "string",
     "Comment": "Nome do país do aeroporto."
   },
   {
-    "Name": "airport continent",
+    "Name": "airport_continent",
     "Type": "string",
     "Comment": "Continente onde o aeroporto está situado."
   },
@@ -55,22 +55,22 @@
     "Comment": "Continente envolvidos na rota do aeroporto."
   },
   {
-    "Name": "departure date",
+    "Name": "departure_date",
     "Type": "string",
     "Comment": "Data de decolagem."
   },
   {
-    "Name": "arrival airport",
+    "Name": "arrival_airport",
     "Type": "string",
     "Comment": "Aeroporto de destino."
   },
   {
-    "Name": "pilot name",
+    "Name": "pilot_name",
     "Type": "string",
     "Comment": "Nome do piloto."
   },
   {
-    "Name": "flight status",
+    "Name": "flight_status",
     "Type": "string",
     "Comment": "Situação do vôo ('On Time' 'Delayed' 'Cancelled')."
   }
